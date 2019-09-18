@@ -1,6 +1,0 @@
-gcc -o ex3 ex3.c
-./ex3 > nombres.data
-wc nombres.data
-sort -n nombres.data > nombre_tries.data
-uniq nombres_tries.data > nombres_uniq.data
-wc nombres_uniq.data
